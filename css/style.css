@@ -1,9 +1,23 @@
 
 .container {
-   width: 80%;
-}
+    width: 80%;
+} 
 
 header {
     background-color: #465F7A;
-    color: white;
+    color: var(--bs-white);
+}
+
+.jumbotron {
+    background-color: #44C4A6;
+    color: var(--bs-white);
+}
+
+.jumbotron .col-lg-6 {
+    margin: 7em auto;
+    background-color: crimson;
+}
+
+.thumbs h1 {
+    border-bottom: 1px solid black;
 }
