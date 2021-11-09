@@ -3,7 +3,8 @@
     width: 80%;
 } 
 
-header {
+header,
+.copyright {
     background-color: #465F7A;
     color: var(--bs-white);
 }
@@ -28,3 +29,10 @@ header {
 .about h1 {
     border-bottom: 1px solid white;
 }
+
+
+footer {
+    background-color: #35475B;
+    color: white;
+}
+
