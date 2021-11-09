@@ -8,7 +8,8 @@ header {
     color: var(--bs-white);
 }
 
-.jumbotron {
+.jumbotron,
+.about {
     background-color: #44C4A6;
     color: var(--bs-white);
 }
@@ -18,6 +19,12 @@ header {
     background-color: crimson;
 }
 
-.thumbs h1 {
+.thumbs h1,
+.contact h1 {
     border-bottom: 1px solid black;
+}
+
+
+.about h1 {
+    border-bottom: 1px solid white;
 }
