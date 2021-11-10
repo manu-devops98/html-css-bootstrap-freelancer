@@ -41,7 +41,7 @@ header .container .row {
 }
 
 .menu-item a:hover {
-    color: lightskyblue;
+    color: #44C4A6;
 }
 /* MAIN  */
 main {
@@ -80,6 +80,27 @@ main {
     text-transform: none;
 }
 
+.form-control {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.input {
+    text-transform: none;
+}
+
+.input:focus .form-label,
+.input:active .form-label,
+.input:hover .form-label,
+.input:visited .form-label,
+.input:link .form-label { 
+    font-size: 0.8em;
+}
+
+.contact button {
+    color: white;
+    background-color: #44C4A6;
+}
 /* FOOTER  */
 footer {
     background-color: #35475B;
