@@ -3,10 +3,15 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.star::after,
-.star::before {
-    content: '';
-    border: 3px solid white;
+.line {
+    display: inline-block;
+    height: 2px;
+    width: 20%;
+    background-color: white;
+}
+
+.star {
+    vertical-align: bottom;
 }
 /* HEADER  */
 header {
@@ -43,6 +48,15 @@ header .container .row {
 .menu-item a:hover {
     color: #44C4A6;
 }
+
+.hamburger-menu i {
+    border: 1px solid white;
+}
+
+.hamburger-menu i:hover {
+    background-color: white;
+    color: #465F7A;
+}
 /* MAIN  */
 main {
     height: calc(100% - 60px);
@@ -74,6 +88,10 @@ main {
     border-radius: 10px;
 }
 
+.portfolio .line,
+.contact .line {
+    background-color: black;
+}
 /* ABOUT  */
 .about p {
     font-size: 1.1em;
@@ -101,13 +119,41 @@ main {
     color: white;
     background-color: #44C4A6;
 }
+
+.contact button:hover {
+    color: white;
+    background-color: #465F7A;
+}
 /* FOOTER  */
 footer {
     background-color: #35475B;
     color: white;
+    text-transform: none;
 }
 
-@media screen and (min-width: 768px) {
+footer span i {
+    font-size: 2em;
+}
+
+footer span i:hover {
+    color: #44C4A6;
+
+}
+
+
+footer a {
+    color: #44C4A6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: crimson;
+}
+
+.copyright p {
+    font-size: 0.6em;
+}
+@media screen and (min-width: 576px) {
     .hamburger-menu {
         display: none;
     } 
