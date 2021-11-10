@@ -35,10 +35,6 @@ header .container .row {
     font-weight: bold;
 }
 
-.menu-item {
-    display: none;
-}
-
 .menu-item a {
     text-decoration: none;
     color: white;
@@ -153,12 +149,10 @@ footer a:hover {
 .copyright p {
     font-size: 0.6em;
 }
-@media screen and (min-width: 576px) {
-    .hamburger-menu {
-        display: none;
-    } 
-    .menu-item {
-        display: block;
-    }
-}
 
+@media screen and (max-width: 576px) {
+    .logo {
+        font-size: 1em;
+    }
+    
+}
