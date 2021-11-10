@@ -82,6 +82,34 @@ main {
 .portfolio img {
     width: 100%;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.plus-hover {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.plus-hover:hover {
+    background-color: #44C4A6;
+}
+
+.plus-hover:hover .fa-plus {
+    display: block;
+}
+.portfolio img:hover {
+    opacity: 0.1;
+}
+
+.fa-plus {
+    display: none;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .portfolio .line,
